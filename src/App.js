@@ -4,6 +4,7 @@
 
 // import { Carousel } from "react-bootstrap";
 import { Figure } from "react-bootstrap";
+import { ProductList } from "./api/Productlist";
 import ClassComp from "./components/Classcomp"
 
 const App=()=> {
@@ -15,7 +16,8 @@ const App=()=> {
       {/* <Component/> */}
       <h1>Hello</h1>
       <ClassComp />
-      <Figure/>
+      <Figure />
+      <ProductList/>
       {/* <Caros/> */}
     </div>
   );
